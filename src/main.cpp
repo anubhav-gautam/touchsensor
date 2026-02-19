@@ -11,6 +11,7 @@ void loop() {
     if (state == HIGH) {
         digitalWrite(LED_BUILTIN, HIGH);
         ....Serial.println("Touch");
-
+    else {
+    }
 
 }
