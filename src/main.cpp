@@ -12,6 +12,9 @@ void loop() {
         digitalWrite(LED_BUILTIN, HIGH);
         ....Serial.println("Touch");
     else {
+        digitalWrite(LED_BUILTIN, LOW);
+        Serial.println("Not Touch");
+    }
     }
 
 }
