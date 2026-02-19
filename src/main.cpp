@@ -8,5 +8,9 @@ void setup() {
 
 void loop() {
     int state = digitalRead(touchPin);
+    if (state == HIGH) {
+        digitalWrite(LED_BUILTIN, HIGH);
+        ....Serial.println("Touch");
+
 
 }
